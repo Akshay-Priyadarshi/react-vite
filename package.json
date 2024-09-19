@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "format": "pnpm prettier -w"
+    "format": "pnpm prettier -w 'src/**/*.{js,ts,json,yaml,tsx,jsx,html}'"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
