@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button/button.component"
+import { Button } from "@/components/ui/button/component.button"
 import { getUsers } from "@/services/user.service"
 import { useQuery } from "@tanstack/react-query"
 
