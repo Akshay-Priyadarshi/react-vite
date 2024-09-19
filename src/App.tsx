@@ -1,8 +1,8 @@
 function App() {
     return (
-        <>
-            <h1>Hello React</h1>
-        </>
+        <div className="flex justify-center items-center h-screen">
+            <h1 className="text-5xl">Hello React</h1>
+        </div>
     );
 }
 
